@@ -11,7 +11,7 @@
 ### 📟화면<br>
 ### PC버전
 
-![1_메인화면](https://user-images.githubusercontent.com/41726750/109454202-1079cc00-7a97-11eb-84fc-2d73c054d28e.png)
+https://user-images.githubusercontent.com/41726750/109454202-1079cc00-7a97-11eb-84fc-2d73c054d28e.png
 
 <br>
 ### 다크모드
