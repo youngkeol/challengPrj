@@ -1,0 +1,220 @@
+@charset 'UTF-8';
+
+/* 색상변수 */
+:root {
+    --gradient1 :#4080ce;
+    --gradient2 :#4266c0;
+    
+
+    --fc-basic : #456cc2;
+    --fc-sub : #68ccbd;
+    --fc-white: #fff;
+    --fc-gray: #575757;
+    
+    --fc-333:#333;
+    --fc-777:#777;
+    --fc-888:#888;
+    --fc-999:#999;
+
+    --bg-basic : #456cc2;
+    --bg-sub : #68ccbd;
+    --bg-00 : #000;
+    --bg-ff : #fff;
+    --bg-f4 : #f4f4f4;
+    --bg-f6 : #f6f6f6;
+    --bg-dd : #ddd;
+    --bg-66 : #666;
+    --bg-77 : #777;
+    --bg-88 : #888;
+    --bg-99 : #999;
+    --bg-f7 : #f7f7f7;
+    --bg-d8 :  #d8d8d8;
+    --bg-f6f9fd : #f6f9fd;
+    
+    --fc-theme : #4d4848;
+    --bg-theme : #fff;
+    --bg-theme2 : #383838;
+}
+
+
+.dark_theme:root {
+    --gradient1 :#383838;
+    --gradient2 :#383838;
+    
+
+    --fc-basic : #4c78d6;
+    --fc-sub : #2a3d3b;
+    --fc-white: #fff;
+    --fc-gray: #9b9b9b;
+    
+    --fc-333:#f3f3f3;
+    --fc-777:#f7f7f7;
+    --fc-888:#b8b8b8;
+    --fc-999:#b9b9b9;
+
+    --bg-basic :#b7bdcb;
+    --bg-sub : #3a6e67;
+    --bg-00 : #fff;
+    --bg-ff : #585858;
+    --bg-f4 : #444;
+    --bg-f6 : #f6f6f6;
+    --bg-dd : rgb(148, 148, 148);
+    --bg-66 : rgb(173, 166, 166);
+    --bg-77 : #777;
+    --bg-88 : #888;
+    --bg-99 : #414141;
+    --bg-f7 : #464646;
+    --bg-d8 :  #d8d8d8;
+    --bg-f6f9fd : #3e3e3e;
+
+    --fc-theme : #4d4848;
+    --bg-theme : #ffffff;
+    
+    a {color:seashell;}
+    textarea, body input {color:#333 !important;}
+    input::placeholder, body textarea::placeholder {color:#444 !important;}
+    .header {background:none;}
+
+    .main_text_box ul > li {background:rgb(52, 52, 52);}
+}
+
+
+
+/********* common_layout *********/
+html, body {height:100%;}
+body {line-height:1.3; color:var(--fc-333); font-family:'Montserrat', 'NanumSquare', 'sans-serif'; font-size: 16px; letter-spacing: -0.5px;}
+body.scroll_fixed {position: fixed !important; width: 100% !important;}
+.wrapper {position:relative; z-index:1; min-height:100%;}
+.container {position:relative; z-index:1; max-width:1200px; margin:0 auto; padding:0 30px;}
+select, input {font-size: 16px;}
+
+/* skip navi */
+.skip_navi {position:absolute; z-index:999999; width:100%; left:0; top:0; text-align:center;}
+.skip_navi a {display:block; position:absolute; left:0; top:-9999px; z-index:1; width:100%; height:40px; line-height:40px; background-color:var(--fc-333); color:var(--fc-white); font-size:20px; font-weight:700;}
+.skip_navi a:hover, .skip_navi a:focus {top:0;}
+
+/* header */
+.header {position:absolute; z-index:9999; width: 100%; background:linear-gradient(to right, var(--gradient1) 0%, var(--gradient2) 100%);}
+.header > .container {height: 100px;}
+.head_logo {line-height: 100px; text-align: center; font-size: 30px; font-weight:bold; }
+.head_logo > a {font-family:'Maplestory'; font-weight:400; color: var(--fc-white); }
+.head_logo > a:hover {color: var(--fc-white);}
+
+.util_hd_menu_box {position: absolute; right: 30px; top: 43px; z-index: 1;}
+.util_hd_menu {font-size: 0;}
+.util_hd_menu li {display: inline-block; vertical-align: middle; margin-right:15px;}
+.util_hd_menu li:last-child {margin-right:0;}
+.util_hd_menu li a {display: block; font-size: 14px; transition: color 0.3s; color:var(--fc-white); font-family:'Maplestory'; font-weight:400;}
+.util_hd_menu li a > i {margin-right: 3px; font-size: 1.3em; font-size: inherit;}
+.util_hd_menu li a > i.xi-x {vertical-align: -24%;}
+.util_hd_menu li.logout a {}
+.util_hd_menu li.mpage a {}
+.util_hd_menu li.join a {}
+.util_hd_menu li a:hover, .util_hd_menu li a:focus {text-decoration: underline; color: var(--fc-white);}
+
+
+/* contents */
+.contents {padding-top: 100px; padding-bottom:80px;}
+
+/* footer */
+.footer {position:absolute; bottom:0; z-index:1; width: 100%; background-color: var(--bg-f4); border-top:1px solid var(--bg-dd);}
+.footer .container {height: 80px;}
+
+.foot_txt_box {min-height: 60px; padding-top: 20px; background: url('../images/common/foot_logo.png') 0 0 no-repeat; color: var(--fc-gray); font-size: 14px; text-align: center;}
+.foot_txt_box .txt {margin-bottom: 6px; }
+.foot_txt_box .txt .each {display: inline-block; font-family: "NanumSquare";}
+.foot_txt_box .txt .each > a {color: var(--fc-gray);}
+.foot_txt_box .copyright {font-family: "NanumSquare";}
+
+
+
+/* theme */
+.theme {position: fixed; right:50px; bottom:20px; padding:8px; border-radius:50%; text-align: center; background:var(--bg-theme); z-index:99999; box-shadow:1px 1px 3px rgba(0,0,0,0.2);}
+.theme > i {vertical-align:middle; color:var(--fc-theme); font-size:20px;}
+.theme:hover {background:var(--bg-theme2);}
+.theme:hover > i {color:var(--fc-white);}
+
+
+
+/********* response ********/
+@media screen and (max-width:1200px){
+}
+
+@media screen and (max-width:991px){
+    .header > .container {height:80px;}
+    .head_logo {font-size:26px; line-height:80px; text-align:left;}
+
+    .util_hd_menu_box {top:32px;}
+     
+    .contents {padding-top:80px;}
+
+    .foot_txt_box {min-height: 0; padding-left: 0; font-size: 13px;}
+    .foot_txt_box .txt {margin-bottom: 5px;}
+    .foot_txt_box .txt .each {margin-right: 10px;}
+}
+
+@media screen and (max-width:767px){
+    .header > .container {height: 60px;}
+    .head_logo {font-size:20px; line-height:60px;}
+    
+    .contents {padding-top:60px;}
+
+    .util_hd_menu_box {top:22px;}
+    .util_hd_menu li a {font-size: 13px;}
+}
+
+@media screen and (max-width:480px){
+    body {font-size: 15px;}
+    .container {padding: 0 20px;}
+}
+
+
+
+/* 다크모드 */
+/*
+@media (prefers-color-scheme: dark) {
+    .dark_theme:root {
+        --gradient1 :#383838;
+        --gradient2 :#383838;
+        
+    
+        --fc-basic : #4c78d6;
+        --fc-sub : #2a3d3b;
+        --fc-white: #fff;
+        --fc-gray: #9b9b9b;
+        
+        --fc-333:#f3f3f3;
+        --fc-777:#f7f7f7;
+        --fc-888:#b8b8b8;
+        --fc-999:#b9b9b9;
+    
+        --bg-basic :#b7bdcb;
+        --bg-sub : #3a6e67;
+        --bg-00 : #fff;
+        --bg-ff : #585858;
+        --bg-f4 : #444;
+        --bg-f6 : #f6f6f6;
+        --bg-dd : rgb(148, 148, 148);
+        --bg-66 : rgb(173, 166, 166);
+        --bg-77 : #777;
+        --bg-88 : #888;
+        --bg-99 : #414141;
+        --bg-f7 : #464646;
+        --bg-d8 :  #d8d8d8;
+        --bg-f6f9fd : #3e3e3e;
+        
+        --fc-theme : #4d4848;
+    	--bg-theme : #ffffff;
+    }
+
+
+    a {color:seashell;}
+    textarea, body input {color:#333 !important;}
+    input::placeholder, body textarea::placeholder {color:#444 !important;}
+    .header {background:none;}
+
+    .main_text_box ul > li {background:rgb(52, 52, 52);}
+ }
+ */
+  
+  

@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+.main_body {background:linear-gradient(to right, var(--gradient1) 0%, var(--gradient2) 100%);}
+.main_body  .wrapper { background:url("../images/main/graph_bg.png") no-repeat center bottom; background-size:contain;}
+.main_body .wrapper .header {background:none;}
+.main_body .wrapper .footer {background:none; border:none;}
+.main_body .foot_txt_box {color:var(--fc-white); opacity:0.7;}
+
+.main_con {padding-top:80px;}
+
+.main_text_box ul{display:flex; width:100%;height:200px;}
+.main_text_box ul > li {position:relative; width:100%; margin-right:20px; padding: 30px 20px; box-shadow:1px 1px 4px rgba(255,255,255,0.2); background:var(--bg-ff);}
+.main_text_box ul> li:last-of-type {margin-right:0;}
+.main_text_box ul> li > i {font-size:40px; padding-bottom:14px; color:var(--fc-basic); border-bottom:2px solid var(--bg-basic);}
+.main_text_box ul> li span {display:block; font-size:18px; padding-top:16px; font-weight:600; color:var(--fc-333); opacity:0.7;}
+.main_text_box ul> li span.num {position:absolute; right:20px; bottom:0px; font-size:56px; color:var(--fc-basic); opacity:1;}
+
+
+.main_text_box ul> li.link_btn {flex-basis:130px; min-width:130px; text-align:center; color:var(--fc-white); font-weight:600; background:var(--bg-sub); border-width:0; padding:0;}
+.link_btn > a {display:block; width:100%; height:100%; color:var(--fc-white); padding:74px 10px;}
+.link_btn a > i {padding-left:2px; vertical-align:middle;}
+.main_text_box ul> li.link_btn:hover {box-shadow:1px 1px 4px rgba(255,255,255,0.4);}
+
+
+@keyframes btnAni{
+    0% {width: 0;}
+    100% {width: 100%;}
+}
+
+/********* response ********/
+@media screen and (max-width:1200px){
+  
+
+}
+
+
+@media screen and (max-width:991px){
+    .main_con {padding-top:0;}
+    .main_text_box ul {flex-wrap: wrap;}
+    .main_text_box ul> li {width:calc(33.33% - 10px); margin-right:15px; margin-bottom:15px;}
+    .main_text_box ul> li:nth-of-type(3) {margin-right:0px;}
+    .main_text_box ul> li.link_btn {min-width:100%;}
+    .main_text_box ul> li.link_btn > a {padding:14px 10px;}
+}
+
+@media screen and (max-width:767px){
+    .main_text_box ul {display:block; height:auto;}
+    .main_text_box ul> li  {width:100%; margin-right:0; padding:20px;}
+    .main_text_box ul> li > i {font-size:36px; padding-bottom:10px;}
+    .main_text_box ul> li span {padding-top:10px;}
+    .main_text_box ul> li span.num {font-size:48px; bottom:10px;}
+}
+
+@media screen and (max-width:480px){
+    .main_text_box ul> li > i {border-bottom:none; font-size:30px; padding-bottom:0; vertical-align:middle;}
+    .main_text_box ul> li span {display:inline; padding-top:0; font-size:16px; padding-left:3px;}
+    .main_text_box ul> li span.num {font-size:36px; bottom:auto; top:50%; transform:translateY(-50%);}
+    
+}

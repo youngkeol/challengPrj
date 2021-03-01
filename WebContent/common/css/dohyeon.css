@@ -1,0 +1,14 @@
+@charset 'UTF-8';
+
+@font-face {
+    font-family: 'Dohyeon';
+    font-style: normal;
+    font-weight: 700;
+    src: local('※'),
+    url('../fonts/BMDOHYEON.eot'),
+    url('../fonts/BMDOHYEON#iefix') format('embedded-opentype'),
+    url('../fonts/BMDOHYEON.woff') format('woff'),
+    url('../fonts/BMDOHYEON.ttf') format('truetype'),
+    url('../fonts/BMDOHYEON.otf') format('opentype');
+}
+
