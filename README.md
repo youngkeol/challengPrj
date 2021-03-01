@@ -10,9 +10,8 @@
 <br>
 <br>
 
-### 📟화면
+### 📟화면(PC, 다크모드, 반응형)
 <br>
-
 ## PC
 ![1_시작화면](https://user-images.githubusercontent.com/41726750/109454202-1079cc00-7a97-11eb-84fc-2d73c054d28e.png)
 ![2_로그인](https://user-images.githubusercontent.com/41726750/109454209-12438f80-7a97-11eb-9361-4e4ec06a351b.png)
