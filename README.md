@@ -12,8 +12,8 @@
 
 ### 📟화면
 <br>
-## PC버전
 
+## PC
 ![1_시작화면](https://user-images.githubusercontent.com/41726750/109454202-1079cc00-7a97-11eb-84fc-2d73c054d28e.png)
 ![2_로그인](https://user-images.githubusercontent.com/41726750/109454209-12438f80-7a97-11eb-9361-4e4ec06a351b.png)
 ![3_게시판](https://user-images.githubusercontent.com/41726750/109454212-12438f80-7a97-11eb-8215-792e8266c31c.png)
