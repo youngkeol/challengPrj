@@ -11,14 +11,22 @@
 ### 📟화면<br>
 ### PC버전
 
-https://user-images.githubusercontent.com/41726750/109454202-1079cc00-7a97-11eb-84fc-2d73c054d28e.png
+![1_시작화면](https://user-images.githubusercontent.com/41726750/109454202-1079cc00-7a97-11eb-84fc-2d73c054d28e.png)
+![2_로그인](https://user-images.githubusercontent.com/41726750/109454209-12438f80-7a97-11eb-9361-4e4ec06a351b.png)
+![3_게시판](https://user-images.githubusercontent.com/41726750/109454212-12438f80-7a97-11eb-8215-792e8266c31c.png)
+![4_글쓰기](https://user-images.githubusercontent.com/41726750/109454218-1374bc80-7a97-11eb-96a6-2ac4f42a6029.png)
+![5_회원가입](https://user-images.githubusercontent.com/41726750/109454215-12dc2600-7a97-11eb-9393-3970c7d2737d.png)
+![6_아이디찾기](https://user-images.githubusercontent.com/41726750/109454216-12dc2600-7a97-11eb-83bd-b62a04967feb.png)
 
 <br>
 ### 다크모드
+![7_다크모드메인](https://user-images.githubusercontent.com/41726750/109454219-140d5300-7a97-11eb-9731-e18c394b16f6.png)
 
 <br>
 ### 반응형
-
+![8_반응형메인](https://user-images.githubusercontent.com/41726750/109454417-8c741400-7a97-11eb-937c-dbbb26ff390e.png)
+![8_반응형게시판](https://user-images.githubusercontent.com/41726750/109454424-90079b00-7a97-11eb-9f4d-4958a604a808.png)
+![8_반응형자세히보기](https://user-images.githubusercontent.com/41726750/109454430-91d15e80-7a97-11eb-8d3f-18bc71992889.png)
 <br>
 
 <br>
