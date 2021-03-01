@@ -19,15 +19,16 @@
 ![6_아이디찾기](https://user-images.githubusercontent.com/41726750/109454216-12dc2600-7a97-11eb-83bd-b62a04967feb.png)
 
 <br>
+
 ### 다크모드
 ![7_다크모드메인](https://user-images.githubusercontent.com/41726750/109454219-140d5300-7a97-11eb-9731-e18c394b16f6.png)
 
 <br>
+
 ### 반응형
 ![8_반응형메인](https://user-images.githubusercontent.com/41726750/109454417-8c741400-7a97-11eb-937c-dbbb26ff390e.png)
-![8_반응형게시판](https://user-images.githubusercontent.com/41726750/109454424-90079b00-7a97-11eb-9f4d-4958a604a808.png)
-![8_반응형자세히보기](https://user-images.githubusercontent.com/41726750/109454430-91d15e80-7a97-11eb-8d3f-18bc71992889.png)
-<br>
+![9_반응형게시판](https://user-images.githubusercontent.com/41726750/109454424-90079b00-7a97-11eb-9f4d-4958a604a808.png)
+![10_반응형자세히보기](https://user-images.githubusercontent.com/41726750/109454430-91d15e80-7a97-11eb-8d3f-18bc71992889.png)
 
 <br>
 <br>
