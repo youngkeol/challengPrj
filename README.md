@@ -39,7 +39,7 @@
 
 ### 🛠 사용 기술
 <br>
-HTML, CSS, JAVASCRIPT, JSP/SERVLET
+HTML, CSS, JAVASCRIPT, JSP/SERVLET, ORACLE
 
 <br>
 <br>
